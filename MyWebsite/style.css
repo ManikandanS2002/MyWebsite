@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(230, 242, 242);
+}
+
+body {
+    cursor: url(png/magic-wand-cursor.png), auto;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: url(png/harrypotter-cursor.png), auto;
+    transform: scale(1.1);
+    color: rgb(235, 31, 0);
+    background-color: whitesmoke;
+    box-shadow: 5px 3px #df8282;
+    padding: 2px;
+}
+
+.home-text h1:hover {
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.downloadButton {
+    padding-right: 1px;
+}
+
+.change-text h2 {
+    display: inline-flex;
+    margin: 0%;
+    vertical-align: top;
+}
+
+.service {
+    padding: 5px;
+}
+
+.change-text h2 .roletext:hover {
+    background: linear-gradient(135deg, #ff4000, #e00e0e);
+    /* Replace #ffcc00 and #ff3300 with your desired color stops */
+    -webkit-background-clip: text;
+    /* for Webkit browsers */
+    color: transparent;
+    /* Hide the original text color */
+    display: inline-block;
+}
+
+.home-img img {
+    max-width: 250px;
+    max-height: 450px;
+}
+
+@media (max-width: 767px) {
+    .btn {
+        font-size: 8px;
+    }
+}
+
+.service-item:hover {
+    color: white;
+    background-color: #e00e0e !important;
+}
+
+.service-item:hover .icon {
+    color: black !important;
+}
+
+footer {
+    background-color: rgb(235, 175, 175);
+    border-radius: 48px;
+}
+
+.facebook,
+.instagram,
+.linkedin {
+    padding-top: 7px;
+    color: #e00e0e;
+}
